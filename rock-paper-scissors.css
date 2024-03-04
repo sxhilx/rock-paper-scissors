@@ -1,0 +1,72 @@
+body{
+  background-color: #252422;
+  color: white;
+  font-family: Arial;
+  overflow-x: hidden;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Outfit';
+  font-weight: 600;
+}
+
+.move-icon{
+  height: 50px;
+  margin-bottom: -10px;      
+}
+
+.move-button{
+  background-color: transparent;
+  border: 3px solid black;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.result{
+  font-family: 'Outfit';
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.moves{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.score{
+
+  margin-top: 30px;
+  text-align: center;
+}
+
+.reset-score-button,
+.auto-play-button{
+  font-family: 'Lemon milk';
+  background-color: #ccc5b9;
+  border: solid black;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-right: 12.5px;
+  margin-left: 12.5px;
+}
+
+.buttons{
+  text-align: center;
+  margin-top: 25px;
+}
